@@ -31,12 +31,12 @@
     font-weight: bold;
     border-radius: 6px;
     height: 50px;
-    width: 200px;
+    width: 300px;
 
 }
 
 .heading-button h1 {
-    margin-right: 13px;
+    font-size: 36px;
 }
 
 .company-icon {
@@ -60,17 +60,33 @@
 
 }
 
+.icon-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
 @media screen and (max-width:710px) {
     .responsive-container {
-        width: 90%;
+        width: 100%;
     }
 
     .heading-button {
-        width: 50px;
+        width: 20%;
     }
 
     .heading-button h1 {
         display: none;
+    }
+
+    .icon-container {
+        width: 80%;
+    }
+
+    .icon {
+        color: white;
+        width: 20px;
+        height: 20px;
     }
 
 }
